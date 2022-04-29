@@ -1,6 +1,7 @@
 const express = require('express')
 // const db = require('./dbConnection')
 const sortes = require('./mockup')
+const port= process.env.PORT || 3000
 const app = express()
 
 // Configurações do Express
